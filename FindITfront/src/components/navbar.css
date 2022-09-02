@@ -1,0 +1,69 @@
+.nav-link{
+    font-size: 20px;
+    font: Helvetica;
+    color: black;
+    cursor: pointer;
+}
+
+.navBarLink {
+    margin-left: 20px;
+    cursor: pointer;
+  }
+
+.bg-warning{
+    
+    font: Helvetica;
+    color: black;
+    background: linear-gradient(#bfc5d2, #bfc5d2 );
+   
+   
+}
+
+.navbar {
+    background: linear-gradient(#f3cf66, #d4abd2 );
+    padding-bottom: 30px;
+}
+
+.btn{
+    background:#087ee6;
+    font: Helvetica;
+    color: white;
+    font-weight: bold;
+    font-size:medium;
+    
+}
+
+.warning {
+    height: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20px;
+    
+}
+
+.border-warning {
+	margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    
+}
+
+
+.page {
+    background: #d4abd2 ; 
+}
+
+.logincardgrid{
+    margin: 0px;
+    
+}
+
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}

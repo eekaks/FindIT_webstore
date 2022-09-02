@@ -1,0 +1,274 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.sidebar {
+	background-color: rgb(226, 226, 226);
+}
+
+.centergrid {
+	background-color: rgb(226, 226, 226);
+	padding-top: 0.5rem;
+}
+
+.cardgrid {
+	padding: 0rem;
+	padding-top: 0rem;
+	padding-bottom: 0rem;
+}
+
+.cardv2grid {
+	display: inline-flex;
+	justify-content: space-around;
+	align-content: space-around;
+}
+
+.cardgridspinnercontainer {
+	width: 100%;
+	height: 100%;
+}
+
+.cardgridspinnerbox {
+	text-align: center;
+	margin-top: 13rem;
+}
+
+.cardgridspinner {
+	padding: 2rem;
+}
+
+.cardv2 {
+	background-color: white;
+	margin: 0.5rem;
+	padding: 1rem;
+	padding-bottom: 0rem;
+	padding-right: 0.5rem;
+	padding-top: 0.5rem;
+	width: 230px;
+	height: 170px;
+}
+
+.cardtext {
+	font-size: small;
+}
+
+.cardv2top {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cardv2skills {
+	display: flex;
+	flex-wrap: wrap;
+	margin:auto;
+	max-width: 100px;
+}
+
+.cardv2bottom {
+	display: flex;
+}
+
+.cardaddbutton {
+	font-size: 10px;
+}
+
+.cardv2:hover {
+	cursor: pointer;
+}
+
+.cardpicture:hover {
+	cursor: pointer;
+}
+
+.badge.even-larger-badge {
+	font-size: 2em;
+}
+
+.logincardgrid {
+	height: 450px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.addbutton {
+	margin: 1rem !important;
+} 
+
+.input {
+	margin-top: 0.5rem;
+}
+
+.inputdetails {
+	width: 90%;
+}
+
+.logincard {
+	background-color: rgb(207, 207, 207);
+	height: 450px;
+	width: 20%;
+	margin: 0.1rem;
+	text-align: center;
+	justify-content: space-around;
+}
+
+.loginconsultantcontainer { 
+	display: flex;
+	margin-top: 0;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	align-items: stretch;
+	
+}
+.loginconsultants {
+	/* background-color: rgb(207, 207, 207); */
+
+	width: 80.2%;
+	margin-top: 0.1rem;
+	justify-content: space-around;
+}
+
+.loginbuttons {
+	padding: 1rem;
+	padding-top: 0rem;
+}
+
+.loginbutton {
+	display: inline-block;
+	margin: 0.5rem;
+}
+
+.pagination {
+	padding: 2rem;
+	padding-top: 0.5rem;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.cartitem {
+	display: inline-block;
+	background-color: white;
+	border-radius: 2px;
+}
+
+.cartitem:hover {
+	cursor: pointer;
+}
+
+.cart {
+	padding: 1rem;
+}
+
+.shoppingcart {
+	padding-right: 1rem;
+	padding-left: 0rem;
+	margin-left: 0rem;
+}
+
+.skillbadge {
+	margin: 0.1rem;
+	display: inline-block;
+	border-radius: 2px !important;
+}
+
+.pictureandskills {
+	display: flex;
+}
+
+.modalskills {
+	margin: auto;
+}
+
+.filterskillbadge {
+	margin: 0.1rem;
+	display: inline-block;
+	border-radius: 2px !important;
+}
+
+.filterskillbadge:hover {
+	cursor: pointer;
+}
+
+.cartbuttons {
+	display: flex;
+	justify-content: center;
+}
+
+.cartbutton {
+	margin: 0.2rem;
+	border-radius: 2px !important;
+}
+
+.contractbutton {
+	margin-top: 0.3rem !important;
+}
+
+.contractconsultantimage {
+	margin: 0.2rem;
+	margin-top: 0rem;
+}
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 82%;
+  height: 10px;
+  border-radius: 3px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%; 
+  background: linear-gradient(#ffc107, #8e275c );
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: linear-gradient(#ffc107, #8e275c );
+  cursor: pointer;
+}
+
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+.recharts-wrapper {
+	margin : 0 auto;
+	text-align: center;
+  }

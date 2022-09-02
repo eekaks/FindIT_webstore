@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font: Helvetica !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font: Helvetica !important;
+}
+
